@@ -38,3 +38,6 @@ class Counter {
 export default Object.freeze(new Counter());
 
 //~> Whoever imports Counter gets same instance always
+
+//* Merits - saves space
+//* DeMerits - is an Anti-Pattern in JavaScript - even not used in global states in React/redux because they are considered to have immutable states
